@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.Menubar ul li {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0 0px 0px 10px;
+}
+
+.Menubar ul li {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Menubar ul li span {
+    padding: 20px 30px;
+    color: #474343;
+    pointer-events: none;
+}
+
+.Menubar ul li i {
+    font-size: 40px;
+    color: #1c86f5;
+}
+
+.Menubar ul li img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.Menubar ul li button {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e4e6eb;
+    color: black;
+}
+
+.Menubar>ul>li>button>i {
+    color: black;
+    pointer-events: none;
+}
+
+.Menubar ul :hover {
+    background-color: #d3d4e7;
+    transition: 0.2s;
+}
+
+.Loitat span {
+    padding: 20px 10px;
+    line-height: 40px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(105, 103, 103);
+}
+
+.list_loitat ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.list_loitat ul li span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    padding: 10px 20px;
+}
+
+.list_loitat ul li img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.list_loitat ul li:hover {
+    background-color: #d3d4e7;
+    transition: 0.2s;
+}

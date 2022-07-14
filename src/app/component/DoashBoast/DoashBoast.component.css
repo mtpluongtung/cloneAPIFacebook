@@ -20,6 +20,7 @@ nav {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     position: fixed;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .Nabar {
@@ -60,6 +61,7 @@ nav .Nabar ul li a span {
 nav .Nabar ul li a:hover span {
     display: block;
     background-color: black;
+    z-index: 15;
 }
 
 nav .Nabar ul li a:hover {
