@@ -7,12 +7,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PostComponent } from './component/DoashBoast/Main_componet/Post/Post.component';
 
 @NgModule({
   declarations: [
     AppComponent,DoashBoastComponent,
     Right_BarComponent,Main_componetComponent,
-    LeftBar_ComponetComponent
+    LeftBar_ComponetComponent,PostComponent
   ],
   imports: [
     BrowserModule,
