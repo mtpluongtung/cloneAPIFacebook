@@ -82,11 +82,10 @@ body {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    background-color: rgb(247, 243, 227);
+    background-color: rgba(244, 239, 235, 0.7);
     top: 0;
     bottom: 0;
     left: 0;
-    opacity: 70%;
 }
 
 .post_from {
@@ -94,9 +93,95 @@ body {
     height: 400px;
     width: 600px;
     border: 5px;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.post_header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+   align-items: center;
+   height: 50px;
+}
+.post_header >h2{
+   margin: 0 auto;
+}
+.post_header >button{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #b7c1d2;
+    font-size: 35px;
+    cursor: pointer;
+ }
+ .post_header >button i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+ }
+ .profile{
+    display:flex;
+    align-items: center;
+    width: 100%;
+ }
+.name_privacy{
+    display: flex;
+    flex-direction: column;
+}
+.name_privacy span{
+    font-weight: bold;
+}
+.name_privacy button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 5px 2px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.name_privacy button i{
+    font-size: 18px;
+}
+.inputbody {
+    height: 30%;
+    width: 100%;
+}
+.inputbody >textarea{
+    width: 90%;
+    min-height: 100%;
+    border: none;
+    outline: none;
+    text-indent: 5%;
+    padding: 10px 5%;
+    resize: none;
+    overflow: hidden;
+    font-size: 25px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.icon i{
+    font-size: 25px;
+}
+.icon button{
+    height: 35px;
+    width: 35px;
+    color: white;
+    background: radial-gradient(rgb(225, 130, 130),rgb(234, 206, 155),rgb(172, 227, 172),rgb(201, 201, 227),rgb(234, 210, 235),pink);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
 }
