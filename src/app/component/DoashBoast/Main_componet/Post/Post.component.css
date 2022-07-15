@@ -1,12 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
 }
-.post{
+
+.post {
     position: relative;
     margin-top: 3%;
     width: 100%;
@@ -15,12 +17,14 @@ body{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     height: 13%;
 }
-.post_input{
+
+.post_input {
     display: flex;
     margin: 10px 20px;
     align-items: center;
 }
-.post_input input{
+
+.post_input input {
     display: flex;
     height: 40px;
     width: 88%;
@@ -31,20 +35,22 @@ body{
     margin: 10px;
     text-indent: 3%;
     font-weight: 600;
-  
 }
-.post_input img{
+
+.post_input img {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
+
 .post_action ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.post_action ul li{
+
+.post_action ul li {
     display: flex;
     align-items: center;
     margin: 10px 10px;
@@ -52,19 +58,45 @@ body{
     border-radius: 15px;
     cursor: pointer;
     width: 100%;
-   
 }
-.post_action ul li{
+
+.post_action ul li {
     list-style: none;
 }
-.post_action ul li i{
-   font-size: 30px;
+
+.post_action ul li i {
+    font-size: 30px;
 }
-.post_action ul li span{
+
+.post_action ul li span {
     padding: 0px 10px;
     line-height: 40px;
- }
- .post_action ul li:hover{
+}
+
+.post_action ul li:hover {
     background-color: #cfdfed;
     transition: 0.5s;
- }
+}
+
+.post_active {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(247, 243, 227);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 70%;
+}
+
+.post_from {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border: 5px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
