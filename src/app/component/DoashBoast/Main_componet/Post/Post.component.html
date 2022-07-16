@@ -13,7 +13,7 @@
         <div class="post_input">
             <img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t39.30808-6/272198409_1619110371767746_4096674624787439678_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=inN59Zqsg_sAX-RUFvU&_nc_ht=scontent.fhan2-2.fna&oh=00_AT9Z5YLPnHEvzH8Escv99Wp_G-h2xUdFd8j9MdieeCrxmA&oe=62D4F3CB"
                 alt="">
-            <input type="text" placeholder="Tùng ơi, bạn đang nghĩ gì thế?">
+            <input (focus)="test()" type="text" placeholder="Tùng ơi, bạn đang nghĩ gì thế?">
         </div>
         <div class="post_action">
             <ul>
@@ -24,34 +24,48 @@
         </div>
     </div>
     <div class="post_active">
-
-    </div>
-    <div class="post_from">
-        <div class="post_header">
-            <h2>Tạo bài viết</h2>
-            <button><i class='bx bx-x'></i></button>
-        </div>
-        <hr>
-        <div class="profile">
-            <div class="post_input">  <img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t39.30808-6/272198409_1619110371767746_4096674624787439678_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=inN59Zqsg_sAX-RUFvU&_nc_ht=scontent.fhan2-2.fna&oh=00_AT9Z5YLPnHEvzH8Escv99Wp_G-h2xUdFd8j9MdieeCrxmA&oe=62D4F3CB"
-                alt=""></div>
-            <div class="name_privacy">
-                <span>Lương Đức Tùng</span>
-                <button>
-                    <i class='bx bx-world' ></i>
-                    <span>Công Khai</span>
-                    <i class='bx bxs-down-arrow'></i>
-                </button>
+        <div class="post_from">
+            <div class="post_header">
+                <h2>Tạo bài viết</h2>
+                <button (click)="close()"><i class='bx bx-x'></i></button>
             </div>
-        </div>
-        <div class="inputbody">
-            <textarea placeholder="Tùng ơi bạn đang nghĩ gì thế?"></textarea>
+            <hr>
+            <div class="profile">
+                <div class="post_input"> <img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t39.30808-6/272198409_1619110371767746_4096674624787439678_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=inN59Zqsg_sAX-RUFvU&_nc_ht=scontent.fhan2-2.fna&oh=00_AT9Z5YLPnHEvzH8Escv99Wp_G-h2xUdFd8j9MdieeCrxmA&oe=62D4F3CB"
+                        alt=""></div>
+                <div class="name_privacy">
+                    <span>Lương Đức Tùng</span>
+                    <button>
+                        <i class='bx bx-world' ></i>
+                        <span>Công Khai</span>
+                        <i class='bx bxs-down-arrow'></i>
+                    </button>
+                </div>
+            </div>
+            <div class="inputbody">
+                <textarea placeholder="Tùng ơi bạn đang nghĩ gì thế?"></textarea>
+            </div>
             <div class="icon">
                 <button>Ae</button>
                 <i class='bx bx-smile'></i>
             </div>
+            <div class="actiontag">
+                <span>Thêm vào bài viết của bạn</span>
+                <div class="actiontag_icon">
+                    <button><span>ảnh/video</span>  <i style="color: green;" class='bx bxs-file-image'> </i></button>
+                    <button><span>Gắn thẻ người khác</span><i style="color: rgb(57, 23, 211);" class='bx bxs-user-detail'></i></button>
+                    <button><span>Cảm xúc/hoạt động</span> <i style="color: rgb(213, 231, 48);" class='bx bx-smile'></i></button>
+                    <button><span>Check in</span><i style="color: rgb(184, 23, 23);" class='bx bxs-map'></i></button>
+                    <button><span>Tổ chức buổi H&Đ</span><i style="color: rgb(185, 46, 22);" class='bx bxs-microphone'></i></button>
+                </div>
+            </div>
+            <div class="dang">
+                <button>Đăng</button>
+            </div>
         </div>
+
     </div>
+
 </body>
 
 </html>
