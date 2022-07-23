@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./Post.component.css']
 })
 export class PostComponent implements OnInit {
-
+  hahah:string='';
   constructor() { }
 
   ngOnInit() {
@@ -23,5 +23,10 @@ close(){
   var formAction1= document.querySelector('.post_active');
   formAction?.classList.remove('show');
   formAction1?.classList.remove('show1');
+}
+writre(){
+  var btnpost= document.querySelector('.dang') as HTMLElement;
+  btnpost.style.background='#1b74e4';
+  console.log('hahha')
 }
 }
