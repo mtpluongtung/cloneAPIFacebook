@@ -1,6 +1,8 @@
 body {
-    height: 100vh;
+   height: 100vh;
     width: 100%;
+    overflow: scroll;
+    margin: 20px;
 }
 
 .story {
@@ -110,11 +112,16 @@ body {
     text-align: center;
    
 }
-
+.status{
+    z-index: 1;
+}
+.action{
+    z-index: 3;
+}
 .image :hover {
     transform: scale(1.05);
     transition: transform 0.5s ease;
 }
-.action{
-    height: 70%;
+body::-webkit-scrollbar{
+    display: none;
 }

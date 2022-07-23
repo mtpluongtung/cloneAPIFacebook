@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.status_form{
+    position: relative;
+    padding: 20px;
+    margin-top: 20px;
+    width: 98%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #f0f2f5;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.status_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status_header img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Friend_time {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.Friend_time span {
+    font-weight: bold;
+}
+.status_header button{
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+    color: #333333;
+    cursor: pointer;
+}
+.status_caption{
+    padding: 20px 0px;
+}
+.status_pickture{
+    position: relative;
+}
+.status_pickture img{
+    width: 90%;
+    height: 80%;
+    object-fit: contain;
+}
+.count_like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+   
+}
+.count_like span{
+    display: flex;
+   
+    align-items: center;
+   
+}
+.comment_like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+.comment_like button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}

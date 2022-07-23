@@ -29,21 +29,27 @@ body {
 .right_bar {
     width: 25%;
     min-height: 100%;
-    background-color: #f0f2f5;
+   
     padding: 20px;
     overflow-y: scroll;
 }
 
 .Main {
     width: 50%;
-    height: 100%;
-    background-color: #f0f2f5;
     padding: 20px;
+    height: 100%;
+    overflow: scroll;
 }
 
 .left_bar {
     width: 25%;
     height: 100%;
-    background-color: aqua;
     padding: 20px;
+    overflow: scroll;
+}
+.left_bar::-webkit-scrollbar{
+    display: none;
+}
+.Main::-webkit-scrollbar{
+    display: none;
 }

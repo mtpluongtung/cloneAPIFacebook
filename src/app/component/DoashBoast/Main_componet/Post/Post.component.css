@@ -4,14 +4,18 @@
 }
 
 body {
-    width: 100%;
+    width: 98%;
     height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .post {
     position: relative;
     margin-top: 3%;
-    width: 100%;
+    width: 98%;
     border-radius: 15px;
     border: 5px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -87,6 +91,7 @@ body {
     bottom: 0;
     left: 0;
     visibility: hidden;
+    z-index: 3;
 }
 
 .post_from {
@@ -103,6 +108,7 @@ body {
     transition: 1s;
     visibility: hidden;
     opacity: 0%;
+    z-index: 3;
 }
 
 .post_header {

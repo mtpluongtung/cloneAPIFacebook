@@ -8,12 +8,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PostComponent } from './component/DoashBoast/Main_componet/Post/Post.component';
+import { StatusComponent } from './component/DoashBoast/Main_componet/Status/Status.component';
 
 @NgModule({
   declarations: [
-    AppComponent,DoashBoastComponent,
-    Right_BarComponent,Main_componetComponent,
-    LeftBar_ComponetComponent,PostComponent
+    AppComponent,
+    DoashBoastComponent,
+    Right_BarComponent,
+    Main_componetComponent,
+    LeftBar_ComponetComponent,
+    PostComponent,
+    StatusComponent
   ],
   imports: [
     BrowserModule,

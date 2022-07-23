@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="status_form" *ngFor="let i of list">
+      <div class="status_header">
+        <img src="{{i.url_avt}}" alt="">
+        <div class="Friend_time">
+           <span>{{i.Name}}</span>
+            <label for="">{{i.time}}</label>
+        </div>
+        <button>...</button>
+      </div>
+      <div class="status_caption">
+        <span>{{i.status}}
+        </span>
+      </div>
+      <div class="status_pickture">
+        <img src="{{i.image}}" alt="">
+      </div>
+      <div class="count_like"> 
+        <span><i class='bx bxs-like' style="color: #2771e2;font-size: 20px;"></i><i class='bx bxs-heart-circle' style="color:#e92a5e;font-size: 20px;"></i>{{i.count_like}}</span>
+        <span>{{i.count_coment}}</span>
+      </div>
+      <hr>
+      <div class="comment_like">
+        <button><i class='bx bx-like' ></i> Thích</button>
+        <button><i class='bx bx-comment' ></i> Bình luận</button>
+      </div>
+      <hr>
+  </div>
+ 
+</body>
+</html>

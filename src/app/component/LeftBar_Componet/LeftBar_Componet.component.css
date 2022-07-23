@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.listfriend {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 5px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 10px;
+}
+.listfriend img { 
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.listfriend:hover { 
+    background-color: #3333;
+}
