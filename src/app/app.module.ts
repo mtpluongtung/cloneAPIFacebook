@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PostComponent } from './component/DoashBoast/Main_componet/Post/Post.component';
 import { StatusComponent } from './component/DoashBoast/Main_componet/Status/Status.component';
+import { ViewstoryComponent } from './component/DoashBoast/Main_componet/viewstory/viewstory.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { StatusComponent } from './component/DoashBoast/Main_componet/Status/Sta
     Main_componetComponent,
     LeftBar_ComponetComponent,
     PostComponent,
-    StatusComponent
+    StatusComponent,
+    ViewstoryComponent
   ],
   imports: [
     BrowserModule,
